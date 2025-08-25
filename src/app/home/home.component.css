@@ -1,0 +1,28 @@
+h3{
+    font-size: medium;
+}
+
+#welcome-text{
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body{
+    font-family: cursive;
+    text-align: center;
+}
+
+#title-home{
+    height: 43px;
+    font-size: xxx-large;
+}
+
+#addMovie{
+   display: block;
+   background-color: burlywood;
+}
+

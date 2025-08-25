@@ -6,7 +6,50 @@
     <title>Lista de peliculas</title>
 </head>
 <body>
-    <app-navbar></app-navbar>
-    <h1>Bienvenido a la pagina principal</h1>
+    <div class="container-fluid">
+        <app-navbar></app-navbar>
+        <h1 class="text-center my-4" id="title-home">List Films</h1>
+        <h3 class="text-center my-4">Tu lista de pelis y series soñadas, ¡por fin organizada!</h3>
+        <p id="welcome-text">Crea las listas de las películas o series que te gustaría ver, que ya viste o que tienes pendiente de hace décadas 😁.</p>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Agregar a la lista</h5>
+                        <p class="card-text">¿Te la recomendaron? ¡Añade a tu lista!.</p>
+                        <a href="movies" class="btn btn-primary" id="addMovie"><i class="bi bi-plus-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ver lista</h5>
+                        <p class="card-text">Recuerda tus joyas favoritas.</p>
+                        <a href="movies" class="btn btn-primary" id="addMovie"><i class="bi bi-list-columns-reverse"></i></a>
+                    </div>
+                </div>
+            </div>
+             <div class="col">
+                <div class="card"style="">
+                    <div class="card-body">
+                        <h5 class="card-title">Editar de la lista</h5>
+                        <p class="card-text">Actualiza tus vistos y pendientes, ¡edítala fácil!.</p>
+                        <a href="movies" class="btn btn-primary" id="addMovie"><i class="bi bi-list-columns-reverse"></i></a>
+                    </div>
+                </div>
+            </div>
+             <div class="col">
+                <div class="card"style="">
+                    <div class="card-body">
+                        <h5 class="card-title">Eliminar de la lista</h5>
+                        <p class="card-text">Saca lo que ya no te interesa, ¡limpieza total!.</p>
+                        <a href="movies" class="btn btn-primary" id="addMovie"><i class="bi bi-list-columns-reverse"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>

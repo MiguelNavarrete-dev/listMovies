@@ -3,6 +3,7 @@ import { MoviesService } from '../../movies.service';
 import { OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from '../../navbar/navbar.component';
 
    
 @Component({
@@ -10,7 +11,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './list-movies.component.html',
   styleUrl: './list-movies.component.css',
   standalone: true,
-  imports: [FormsModule, CommonModule]
+  imports: [FormsModule, CommonModule, NavbarComponent]
 })
 
 export class ListMoviesComponent implements OnInit {
